@@ -1,0 +1,43 @@
+/* It is good practice to define all font size at the beginning and then do not chnage in entire code */
+
+body {
+    border: 5px solid red;
+    /* CSS px is different from device pixel.
+    CSS px is based on DPR (Device Pixel Ratio).
+     At the time of screen rendring css pixel is converted to device pixel */
+    /* font-size: 2em; */
+}
+
+main {
+    border: 5px dotted blue;
+    /* width: 50%; */
+    /* 50 % of parent. i.e. main */
+    width: 25%;
+    /* font-size: 2em; */
+
+}
+
+section {
+    border: 5px dotted green;
+    /* width: 50%; */
+    width: 50vw;
+    /* vw(view Width) is absolute(does not depend on any) and % is relative (depends in parent) */
+    /* width: 200vw; */
+    /* width will be more than screen wi    dth */
+    /* font-size: 2em; */
+    /* if we use vw then if we change width of screen font-size will also change */
+}
+
+h3 {
+    /* default font-size is 2em */
+    /* here it is 2 times of parent(section) and section is 2 times of its parent(main).
+     main is 2 time of body and body is 1 times of its parent html
+    and default value for html is 1 em .
+    so 2x2x2x2x1 =16em=16x12 px*/
+
+}
+
+/* em is relative and px is absolute . 
+if we write h3 font-size=2em then it will be 2 times of parent font-size.
+We should avoid writing absolute unit(like px) because if user change font-size in his device
+then it will not change and it will be difficult for user to read */
