@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    /* padding: 50px;  */
+    /* 50 px from all 4 sides */
+    /* padding: 50px 10px; */
+    /* 50 px top,bottom and 10px right and left */
+    padding: 50px 50px 20px;
+    /* 50 px top and 50px right,left and 20 px from bottom */
+
+    margin: 50px;
+
+}
