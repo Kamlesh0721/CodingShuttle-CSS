@@ -1,0 +1,57 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    /* text shadow */
+    /* text-shadow: 4px 4px 6px red; */
+    /* 4px right ,4px below ,and 6px blur, red color */
+
+    /* How to  blur text */
+    /* color: transparent;
+    text-shadow: 0px 0px 5px red; */
+
+    /* font-family: 'Times New Roman    n', Verdana, sans-serif, serif; */
+    /* if it does not find first font then it will use second */
+    font-family: 'Silkscreen';
+    font-size: large;
+    font-weight: 10px;
+    font-style: oblique;
+
+
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    /* text-decoration: none; */
+    /* text-decoration: line-through; */
+    /* 'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness' */
+    text-decoration-line: underline;
+    text-decoration-color: pink;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+
+
+    /* Text Spacing */
+    /* letter-spacing
+    line-height
+    word-spacing
+    white-space */
+
+
+}
