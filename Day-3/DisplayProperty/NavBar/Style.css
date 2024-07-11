@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 
+nav {
+    /* border: 1px solid blue; 
+
+} 
+*/
+
+ul {
+    /* padding: 0px;  */
+    /* Or we can directly write it in "* section" */
+    background-color: black;
+    padding: 15px 50px;
+    text-align: right;
+
+}
+
+li {
+    /* border: 1px solid red; */
+    /* color: white; */
+    display: inline-block;
+    padding: 0px 20px;
+    /* width: 100px; */
+    /* list-style-type: none; */
+    /* remove style from li.but there will be space left on right so to remove that we have to use padding 0 */
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: purple;
+}
